@@ -21,21 +21,11 @@ Every time GenericAgent solves a new task, it automatically crystallizes the exe
 
 > **🤖 Self-Bootstrap Proof** — Everything in this repository, from installing Git and running `git init` to every commit message, was completed autonomously by GenericAgent. The author never opened a terminal once.
 
-> **📝 Personal Note** — I'm using this fork to explore the self-evolution mechanism and experiment with Claude as the backend model. The skill accumulation approach is particularly interesting for long-running personal automation workflows.
+> **📝 Personal Note** — I'm using this fork to explore the self-evolution mechanism and experiment with Claude as the backend model. The skill accumulation approach is particularly interesting for long-running personal automation workflows. I'm also tracking which skill types accumulate fastest — so far file management and browser tasks dominate.
 
 ## 📋 Core Features
 - **Self-Evolving**: Automatically crystallizes each task into an skill. Capabilities grow with every use, forming your personal skill tree.
 - **Minimal Architecture**: ~3K lines of core code. Agent Loop is ~100 lines. No complex dependencies, zero deployment overhead.
 - **Strong Execution**: Injects into a real browser (preserving login sessions). 9 atomic tools take direct control of the system.
 - **High Compatibility**: Supports Claude / Gemini / Kimi / MiniMax and other major models. Cross-platform.
-- **Token Efficient**: <30K context window — a fraction of the 200K–1M other agents consume. Layered memory ensures the right knowledge is always in scope. Less noise, fewer hallucinations, higher success rate — at a fraction of the cost.
-
-
-## 🧬 Self-Evolution Mechanism
-
-This is what fundamentally distinguishes GenericAgent from every other agent framework.
-
-```
-[New Task] --> [Autonomous Exploration] (install deps, write scripts, debug & verify) -->
-[Crystallize Execu
-```
+- **Token Efficient**: <30K context window — a fraction of the 200K–1M other agents consume. Layered memory ensures the right knowledge is always in scope. Less noise, fewer hallucinations, higher success rate — at a fraction of th
